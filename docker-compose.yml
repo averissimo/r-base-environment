@@ -6,7 +6,7 @@ services:
       context: ./
       args:
         VERSION: 4.1.2
-        BIOC_VERSION: 3.14
+        BIOC_VERSION: latest
     environment:
       DISABLE_AUTH: "true"
     ports:
