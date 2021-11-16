@@ -17,7 +17,7 @@ RUN apt-get update && apt install -y curl && \
   unzip master.zip && \
   cd glmSparseNet-master && \
   bash /my-scripts/install_deps.sh && \
-  cd .. && rm glmSparseNet-master && \
+  cd .. && rm -rf glmSparseNet-master && \
   rm -rf /var/lib/apt/lists/*
 
 RUN Rscript -e "BiocManager::install(c('glmSparseNet'))"
