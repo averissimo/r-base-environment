@@ -21,9 +21,9 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          build-args:
-            - VERSION=4.1.2
-            - BIOC_VERSION=3.14
+          build-args: |
+            VERSION=4.1.2
+            BIOC_VERSION=3.14
       -
         name: Build and push
         id: docker_build
