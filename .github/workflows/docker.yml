@@ -32,7 +32,7 @@ jobs:
           tags: betashil/r-base-environment:latest
           build-args: |
             VERSION=4.1.2
-            BIOC_VERSION=
+            BIOC_VERSION=latest
       - 
         name: Set credentials for github
         run: |
