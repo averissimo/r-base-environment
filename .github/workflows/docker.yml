@@ -21,9 +21,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          build-args: |
-            VERSION=4.1.2
-            BIOC_VERSION=3.14
       -
         name: Build and push
         id: docker_build
@@ -31,3 +28,6 @@ jobs:
         with:
           push: true
           tags: betashil/r-base-environment:latest
+          build-args: |
+            VERSION=4.1.2
+            BIOC_VERSION=3.14
