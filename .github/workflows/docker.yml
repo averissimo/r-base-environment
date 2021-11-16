@@ -46,7 +46,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          echo "$(date)" >> last_update.txt
+          echo "$(date) 4.12.2 | latest" >> last_update.txt
           git add last_update.txt
           git commit -m "Automatic update"
       - 
