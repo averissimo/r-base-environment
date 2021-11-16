@@ -11,3 +11,5 @@ services:
       DISABLE_AUTH: "true"
     ports:
       - 8787:8787
+    volumes:
+      - "~/work/:/home/rstudio/work"
