@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  rstudio:
+    build: 
+      context: ./
+      args:
+        VERSION: 4.1.2
+        BIOC_VERSION: 3.14
+    environment:
+      DISABLE_AUTH: "true"
+    ports:
+      - 8787:8787
