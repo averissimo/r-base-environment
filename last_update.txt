@@ -104,3 +104,4 @@ Mon Oct 16 09:31:57 UTC 2023 4.12.2 | latest
 Mon Oct 23 09:33:23 UTC 2023 4.12.2 | latest
 Mon Oct 30 09:29:52 UTC 2023 4.12.2 | latest
 Mon Nov  6 09:29:41 UTC 2023 4.12.2 | latest
+Mon Nov 13 09:29:42 UTC 2023 4.12.2 | latest
